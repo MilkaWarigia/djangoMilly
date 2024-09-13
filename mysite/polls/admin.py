@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+# Register your models.
 from .models import Choice, Question
 
 class ChoiceInline(admin.TabularInline):
